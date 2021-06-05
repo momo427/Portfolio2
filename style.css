@@ -1,0 +1,98 @@
+body{
+display: flex;
+position: absolute;
+width: 1440px;
+height: 1192px;
+left: 12px;
+top: -2px;
+
+background: #343E3D;
+}
+
+h1{
+position: absolute;
+width: 1110px;
+height: 294px;
+left: 165px;
+top: 525px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 84px;
+line-height: 98px;
+text-align: center;
+
+color: #AEDCC0;
+}
+
+button{
+position: absolute;
+width: 263px;
+height: 100px;
+left: 599px;
+top: 930px;
+background: #607466 !important;
+align-content: center;
+}
+
+p{
+position: absolute;
+width: 277px;
+height: 52px;
+left: 581px;
+top: 424px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 52px;
+/* identical to box height */
+
+text-align: center;
+
+color: #AEDCC0;
+}
+
+nav{
+    position: absolute;
+    width: 1247px;
+    height: 40px;
+    left: 95px;
+    top: 64px;
+    
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+/* identical to box height */
+
+text-align: center;
+display: inline;
+display: flex;
+
+
+color: #AEDCC0;
+
+}
+
+a:visited{
+    color: #AEDCC0;
+}
+
+a{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.memoji{
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 638px;
+    top: 195px; 
+}
