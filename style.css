@@ -1,6 +1,6 @@
 body{
 display: flex;
-position: absolute;
+flex-wrap: wrap;
 width: 1440px;
 height: 1192px;
 left: 12px;
@@ -95,4 +95,48 @@ a{
     height: 163px;
     left: 638px;
     top: 195px; 
+}
+.container-md{
+position: absolute;
+width: 100vh;
+height: 507px;
+left: 450px;
+top: 475px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+img {
+    width: 40rem;
+    height: 30rem;
+}
+#bio {
+    position: absolute;
+    width: 90%;
+   font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    left: 60px;
+    margin-top: 110px;
+    
+    color: #AEDCC0;
+}
+ul {
+position: absolute;
+width: 316px;
+height: 300px;
+left: 558px;
+top: 369px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+
+color: #AEDCC0;
 }
